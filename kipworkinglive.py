@@ -239,7 +239,7 @@ if page == "📝 Data Entry":
     with col1:
         name = st.text_input("Employee Name")
     with col2:
-        department = st.selectbox("Department", ["CDM Team 1", "CDM Team 2", "Administrative Team", "Programming Team"])
+        department = st.selectbox("Department", ["Data Management", "Programming"])
     assessment_date = st.date_input("Assessment Date", value=date.today())
 
     if name:
